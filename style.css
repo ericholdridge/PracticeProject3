@@ -56,8 +56,8 @@ nav .sign-in a:hover, .hero .hero-heading .wrap a:hover {
 .hero {
     background: url('img/hero-bg.jpg') no-repeat center center;
     background-size: cover;
-    min-height: 50vh;
     display: flex;
+    padding: 200px 0;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -256,9 +256,7 @@ nav .sign-in a:hover, .hero .hero-heading .wrap a:hover {
 .signup {
     background: url('img/hero-bg.jpg') no-repeat center center;
     background-size: cover;
-    height: 30vh;
     width: 100%;
-    padding: 20px 0;
     position: relative;
 }
 
@@ -277,7 +275,7 @@ nav .sign-in a:hover, .hero .hero-heading .wrap a:hover {
     max-width: 900px;
     text-align: center;
     margin: 0 auto;
-    padding: 20px 0;
+    padding: 150px 0;
     z-index: 5;
     position: relative;
 }
@@ -287,7 +285,6 @@ nav .sign-in a:hover, .hero .hero-heading .wrap a:hover {
     color: #fff;
     font-size: 2.4rem;
     font-weight: 600;
-    padding-top: 100px;
     margin: 0;
 }
 
@@ -442,10 +439,6 @@ footer .card-right a:hover {
         max-width: 900px;
     }
 }
-
-
-
-
 
 
 
