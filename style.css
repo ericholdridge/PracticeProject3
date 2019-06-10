@@ -440,5 +440,14 @@ footer .card-right a:hover {
     }
 }
 
+@media (max-width: 1150px) {
+    .features .container {
+        max-width: 90%;
+        flex-wrap: wrap;
+    }
 
+    .features .card:nth-child(3) {
+        margin: 30px auto;
+    }
 
+}
