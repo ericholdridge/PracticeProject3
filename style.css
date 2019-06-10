@@ -435,8 +435,14 @@ footer .card-right a:hover {
     footer .card-left p {
         text-align: center;
     }
-
 }
+
+@media (min-width: 991.98px) {
+    footer .container {
+        max-width: 900px;
+    }
+}
+
 
 
 
